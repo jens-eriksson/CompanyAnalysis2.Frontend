@@ -1,1 +1,1 @@
-# CompanyAnalysis2.Web
+# CompanyAnalysis2.Frontend
