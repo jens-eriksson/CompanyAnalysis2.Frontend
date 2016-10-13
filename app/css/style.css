@@ -463,6 +463,7 @@ header {
   bottom: 0;
   right: 0;
   left: 230px;
+  text-align: center;
 }
 
 .collapsed + .content .footer{

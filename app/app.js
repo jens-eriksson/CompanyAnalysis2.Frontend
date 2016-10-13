@@ -1,2 +1,6 @@
-// Define the `phonecatApp` module
-var phonecatApp = angular.module('phonecatApp', []);
+(function () {
+
+  var companyAnalysis = angular.module('companyAnalysis', []);
+
+} ());
+
