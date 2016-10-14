@@ -39,36 +39,27 @@
         <![endif]-->
 
 </head>
+
 <body>
+  <app-layout></app-layout>
+</body>
 
-<app-navigation></app-navigation>
-
-<!--Main Content Start -->
-<section class="content">
-
-    <app-header></app-header>
-    <app-company-list></app-company-list>
-    <app-footer></app-footer>
-
-</section>
-<!-- Main Content Ends -->
 
 <!-- js placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/pace.min.js"></script>
 <script src="js/modernizr.min.js"></script>
-<script src="js/angular.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-component-router/angular_1_router.js"></script>
+
 <script src="app.js"></script>
-<script src="app-navigation/app-navigation.component.js"></script>
-<script src="app-header/app-header.component.js"></script>
 <script src="app-company-list/app-company-list.component.js"></script>
-<script src="app-footer/app-footer.component.js"></script>
+<script src="app-layout/app-layout.component.js"></script>
+
 
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
 <script src="js/jquery.app.js"></script>
 
-
-</body>
 </html>
