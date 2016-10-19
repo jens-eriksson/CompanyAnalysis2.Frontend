@@ -2,7 +2,7 @@
 
 var module = angular.module('companyAnalysis');
 
-module.component('appCompanyList', {
+module.component('companyList', {
     controllerAs: 'model',
     templateUrl: '/app-company-list/app-company-list.component.html',
     controller: function AppCompanyListController() {

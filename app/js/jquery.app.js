@@ -3,6 +3,9 @@
  *
  **/
 
+$(document).ready(function (){
+
+});
 
 ! function($) {
     "use strict";
@@ -22,12 +25,12 @@
         //on toggle side menu bar
         var $this = this;
         $(document).on('click', '.navbar-toggle', function () {
-            $this.$sideBar.toggleClass('collapsed');
+            $('aside.left-panel').toggleClass('collapsed');
         }); 
 
         //on menu item clicking
         this.$navbarItem.click(function () {
-            if ($this.$sideBar.hasClass('collapsed') == false || $(window).width() < 768) {
+            if ($('aside.left-panel').hasClass('collapsed') == false || $(window).width() < 768) {
                 $("aside.left-panel nav.navigation > ul > li > ul").slideUp(300);
                 $("aside.left-panel nav.navigation > ul > li").removeClass('active');
                 if (!$(this).next().is(":visible")) {
@@ -175,3 +178,6 @@ var wow = new WOW(
     }
 );
 wow.init();
+
+
+
